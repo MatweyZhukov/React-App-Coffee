@@ -1,0 +1,19 @@
+import './coffee-header-main-items.css';
+
+const HeaderMainItems = () => {
+	return (
+		<div className="main-header-items">
+			<p className="main-text">Everything You Love About Coffee</p>
+			<div className="line">
+				<span>
+					<img className="line-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFa0lEQVRoge2abWiWZRTHr8c1XWtttiKb04JepltZviDllo3sQwZSSUQLK8jeTCqIoDf6YCaGgmRJYtqbaDFSpMAvlpVOxUEsnI5RapSsZa1V1traWs9+fbjO1X3tfu7X576nfdj5tOc6//M/51yv57ruKTUqozIiksnHCKhSSi1SSs1TSlUrpcqUUl1KqRNKqV1KqW2ZTKY9rSBTF2AS8D6QJViGgA+AK850zDkCNACnJNB/gB3AAmACcBZQKb/fAfoF1wvcd6Zj/0+AZ6SXAXYBl4bgLwG2WyO06nTFGhTUw9YoPAuMsXTjgGZgn4/t48Cg2K88fVHnBnKbJDAEPOChf1KCbAvgaBAOgHtHNmLvACYAv0gAz3voC4EfRX9XCNdjgusBpo5c1N7OG8X5Th/9AtF/bU+3CHyfpR+tv9NbrB682AezRTAvROQsB7rF5vZ0I/Z3ukccPhWAOSaY62Lwmil2OJ1Ig51dLc5OAecG4PoEd34M7rHASbGrt9rLxe8soAYoS5qHAjaKo7UhOHPoFcXkXyZ2zeizxiTmlm+ADcD1+SRRCPwmRIG7C86ONSkGfz3wiUfQvcD3wGHgOPCXS78XqImTSL0YfhcBu1ew8yNgZwD7rMAGgG3AEq8OA8YAs4GVVsf2A3dHTeQ5MdocAfuKYH1PbKAIWItzIHYBy4GLIgWkOc4DNov9UKRkpJcA7o+AvVGwR4Gc6wAwBTgkmCywDiiNmoAHn+nk/tBpBrQIeG4E4gKgQ/B3uHR1wK+iayfGFh3ic5Nw7gkD/iTASGUETkHZZrXNRy9egI9JuJUC+4Em+bsU51CtDTKKdTag7yEHgP3yexbwp3C8BRQmTKJEuP6w2lZI2/ogQ1Nyxw4AfQf5wSSRZ+xuzlrha7XaZkjbsSBDM2zlMR0WAUes6ZRoJCze14VztctXFr2DeVce6B0I4LKYDs1wtyddExbnFPQO9TdwuUt3QvxV+RkfFEBdDIdXibMs6e1OZehTHuBVD70Z/el+BO8K4IkYTs2JvS5B7DZfJdAqnC141HLocgag2o9kiQC2RHRaJ/guEhx2wpUBFuOcPy3AhT5Ys7uO9yObLoAOot36TCWwPEEC5wAPyfoy0ujXMcBUwXQGkRbgVLU3hAQwGb1dDwAVMYOvQB+mOxle6R4HFobYLhXs1jAnawS4IQT3oOC2Rwz+AvT72EGGv1RmgSbgTqAgAs8Osct51XEDpwmwL6ingfcE92gIXznwMvr+b6QX+BC9JjzXgQ/XRJkBg0BlFANz1/C9JQKdgvGty4A5OIXlEPARcCtwdtTgXXzmvGqManCtOO4HpnnoxwthTwDHQuk90I8Z3nt+REEXjD8L35w4huYd6ktcJQdQLbqjPrbX4BSPq6PM/QjxmHKlKa5hBc7DwBsegQIc8rE9IPqNCWK3+WrRm8IAcGU+BPU4FfFLVnuVtOVUoMA80Z0EihPmYKbxV8KZ93mlgEdwtss30S/wJdYaGuvCvybYZSkkUQjsFr5WYFxSwnvQhSHo0mGu1UuzXdgvpD30uhzB79vC1QlMTspnSG8CvsURU++sceG6pD3wY1CIr0IriR5gZvIMhjsoBlYx/HDrxrqDWAnmdS+RNbHbSuLm9DLIdVYMLALazNqxdJ8CzXny1lpTtjP1kQhwXINT9D2dgKcUfU6YTaU1tTURI4gGnA+lm4hxL0HXTitwTuwB4EWS7k75iiRjRqZbgpvpFRC6KliKrmJNCQNxH6pHSiTAzxkuWfRDwRH09bTPpR9El0Kp3PVTFVmw69FftIbIlU70Z7vFwMS0/Ob1vyhRBShRSlUqpUqUUgNKqY5MJvP7SPoclf+L/AtWiir6nXRM8wAAAABJRU5ErkJggg==" alt="beans" />
+				</span>
+			</div>
+			<p className="main-text-end">We make every day full of energy and taste!</p>
+			<p className="main-text-end">Wanna try our beans?</p>
+			<button className="btn-header">More</button>
+		</div>
+	);
+};
+
+export default HeaderMainItems;

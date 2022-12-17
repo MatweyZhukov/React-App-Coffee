@@ -1,0 +1,12 @@
+.coffee-header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-bg {
+	width: 100%;
+	max-height: 1000px;
+}

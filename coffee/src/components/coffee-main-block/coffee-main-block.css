@@ -1,0 +1,52 @@
+.main-block {
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+	top: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	color: black;
+	font-size: 30px;
+}
+
+.line-img {
+	width: 40px;
+	padding: 5px;
+}
+
+.line-main {
+	overflow: hidden;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+}
+
+.line-main span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.line-main::before,
+.line-main::after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 0.5px;
+	background-color: black;
+	position: relative;
+}
+
+.line-main::before {
+	margin-left: -100%;
+}
+
+.line-main::after {
+	margin-right: -100%;
+}

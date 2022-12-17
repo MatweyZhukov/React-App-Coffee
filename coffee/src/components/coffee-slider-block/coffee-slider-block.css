@@ -1,0 +1,35 @@
+.slider-block {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	top: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-title {
+	margin: 0;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.bg-slider {
+	width: 100%;
+	height: 100%;
+}
+
+.main-slider {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.slider {
+	width: 800px;
+}

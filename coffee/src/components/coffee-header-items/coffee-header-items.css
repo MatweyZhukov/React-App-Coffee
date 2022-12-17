@@ -1,0 +1,26 @@
+.header-items {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	height: 40px;
+}
+
+.item {
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.item:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.beans {
+	width: 30px;
+	color: white;
+}
